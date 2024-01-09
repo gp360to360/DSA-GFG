@@ -9,7 +9,7 @@ using namespace std;
         return;
     }
     subsets(s,curr,i+1);
-    subsets(s,curr+s[i],i+1);
+    subsets(s,curr+s[i],i+1);  // Ek ko include karna or nahi karna 
  }
  int main()
  {

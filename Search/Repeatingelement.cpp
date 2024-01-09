@@ -13,7 +13,7 @@ int repeat(int arr[], int n)
 	
 	}while(slow != fast);
 	
-	slow = arr[0];
+	
 
 	while(slow != fast)
 	{

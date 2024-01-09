@@ -6,7 +6,7 @@ int oddoccuring(int arr[],int n)
     int res = arr[0];
     for(int i=1;i<n;i++)
     {
-        res = res^arr[i];
+        res = res^arr[i]; // even occurence hata dega bus odd occurence bachega isme bus
 
     }
     return res;

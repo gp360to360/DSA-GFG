@@ -6,9 +6,9 @@ using namespace std;
 //     int lsum = 0;
 //     for(int i=0;i<n;i++)
 //     {
-//         sum+=arr[i];
+//         sum+=arr[i]; pehle sum nikal liya
 //     }
-//     for(int i=0;i<n;i++)
+//     for(int i=0;i<n;i++)     phir two l sum se ukso compare kar liya kahi na kahi toh aisa element hoga jiska lsum == sum -arr[i] hoga
 //     {
 //         if(lsum==sum-arr[i])
 //         {

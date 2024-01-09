@@ -11,12 +11,12 @@ using namespace std;
 	{
 		cout<<2<<" ";
 
-		n = n / 2;
+		n = n / 2;  // this term reduces all the 2 divisible terms
 	}
 
 	while(n % 3 == 0)
 	{
-		cout<<3<<" ";
+		cout<<3<<" ";  // this reduces all the 3 divisible terms
 
 		n = n / 3;
 	}
@@ -25,7 +25,7 @@ using namespace std;
 	{
 		while(n % i == 0)
 		{
-			cout<<i<<" ";
+			cout<<i<<" "; // and all prime are come in this set
 
 			n = n / i;
 		}

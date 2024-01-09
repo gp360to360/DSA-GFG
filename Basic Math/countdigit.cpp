@@ -9,7 +9,7 @@ int countDigits(int x)
 
 	while(x > 0)
 	{
-			x = x / 10;
+			x = x / 10; // gives you the last digit
 
 			res++;
 	}	

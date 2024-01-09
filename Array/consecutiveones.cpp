@@ -4,7 +4,7 @@ using namespace std;
 // {
 //     int res = 0;
 //     int curr;
-//     for(int i=0;i<n;i++)
+//     for(int i=0;i<n;i++) we define two thing current and res one take curr number of one and other takes res
 //     {
 //         if(arr[i]==0)
 //         curr=0;

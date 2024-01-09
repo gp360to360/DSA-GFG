@@ -28,7 +28,7 @@ int gcd(int a,int b)
 {
    if(b==0)
    {
-    return a;
+    return a;  //we are trying to making your a zero
    }
    else
    {

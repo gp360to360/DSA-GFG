@@ -6,7 +6,7 @@ int countzeros(int x)
     int res =0;
     for(int i=5;i<=x;i = i*5)
     {
-        res = res+(x/i);   
+        res = res+(x/i);  
     }
     return res;
 }

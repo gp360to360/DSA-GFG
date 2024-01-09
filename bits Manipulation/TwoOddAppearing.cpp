@@ -7,9 +7,9 @@ int  twoodappearing(int arr[], int n)
     int x = arr[0];
     for(int i=0;i<n;i++)
     {
-        x = x^arr[i];
+        x = x^arr[i]; 
     }
-    int k = (x&(~(x-1)));
+    int k = (x&(~(x-1)));  // this contain the bits of both odd occuring elemnts
     int res1 = 0;
     int res2 = 0;
     for(int i=0;i<n;i++)

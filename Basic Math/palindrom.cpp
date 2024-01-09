@@ -8,9 +8,9 @@ bool ispal(int n)
     int temp = n;
     while(temp!=0)
     {
-        int ld = temp%10;
-        rev = rev*10 +ld;
-        temp = temp/10;
+        int ld = temp%10; // this give last digit of number
+        rev = rev*10 +ld;  // this expression give reverse order number
+        temp = temp/10;  // this reduces last digit
     }
     return rev==n;
 }

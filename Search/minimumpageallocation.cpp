@@ -65,6 +65,5 @@ int main()
     int arr[]={10,20,10,30};
     int n=sizeof(arr)/sizeof(arr[0]);
     int k=2;
-    
     cout<<minPages(arr,n,k);
 } 
